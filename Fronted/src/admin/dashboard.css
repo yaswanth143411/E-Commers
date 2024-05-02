@@ -1,0 +1,48 @@
+.count-effect {
+    transition: all 0.5s ease-in-out; /* Adjust transition duration as needed */
+    color: white;
+}
+
+.hover-effect:hover {
+    transform: translateY(10px); 
+}
+
+
+.slide-from-left {
+    animation: slideInLeft 0.7s ease;
+}
+
+.slide-from-right {
+    animation: slideInRight 0.7s ease;
+}
+
+.slide-from-top {
+    animation: slideInTop 0.5s ease;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInTop {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

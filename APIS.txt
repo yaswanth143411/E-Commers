@@ -1,0 +1,29 @@
+http://127.0.0.1:988/product    (post)(to upload the product through admin page)
+
+{
+    "name":"lemon",
+    "price":34,
+    "photo":"https://cdn.pixabay.com/photo/2023/04/11/13/27/bird-7917250_1280.jpg",
+    "details":"kjadshasj asjkdfasd"
+}
+
+=======================================================================================
+http://127.0.0.1:988/delete/<name>  (delete)(to delete the product from db)
+
+
+============================================================================================
+http://127.0.0.1:988/data            (get)(to get all product detail from db)
+
+==========================================================================================
+http://127.0.0.1:988/update       (put)(to update the product)
+
+{
+    "name":"lemon",
+    "price":34,
+    "photo":"https://cdn.pixabay.com/photo/2023/04/11/13/27/bird-7917250_1280.jpg",
+    "details":"kjadshasj asjkdfasd"
+}
+
+=============================================================================
+
+http://127.0.0.1:988/login      (POST (need to change to GET ) )(to verify the admin)
